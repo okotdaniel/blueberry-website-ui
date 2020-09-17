@@ -28,6 +28,12 @@ a{
     background-position:relative ;
     
 }
+
+.services{
+    height: 100%;
+    background-color: rgb(192, 192, 192);
+}
+/* social media section */
 .fa{
     height: 50px;
     width:50px;
@@ -45,6 +51,9 @@ a{
     text-decoration: none;
     color: white;
 }
+
+/* end social media section */
+
 hr{
     position: absolute;
     border: 1 px solid blue;
@@ -63,4 +72,25 @@ h3{
 }
 li{
     line-height: 30px;
+}
+.font-small{
+    font-size: small;
+}
+
+.subscribe{
+    
+}
+
+.button-primary{
+    border: 1px solid blue;
+    border-radius: 50px;
+    color: blue;
+    width: 150px;
+    background-color: white;
+    height: 50px;
+}
+.button-primary:focus,.button-primary:hover{
+    background-color: rgb(68, 0, 255);
+    animation: .2s ease-in-out;
+    color: white;
 }
