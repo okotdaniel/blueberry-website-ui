@@ -15,14 +15,14 @@ a{
 
 /* section styling */
 .main{
-    min-height: 100%;
+    min-height: 70%;
     background-image: url("../images/img1.png");
     background-repeat: no-repeat;
     background-position: fixed;
     background-size: contain;
     background-attachment: fixed;
     position: relative;
-
+    
 }
 
 .services{
