@@ -1,19 +1,10 @@
-*{
+html,body{
+    height: 100%;
+    line-height: 100%;
     font-family: 'Roboto';
     margin:0px;
 }
-body{
-    height: 100%;
-    
-}
-.main{
-    background-image: url("../images/img1.png");
-    background-repeat: no-repeat;
-    background-color: blue;
-}
-.any{
-    height: 100%;
-}
+
 li{
     list-style: none;
 }
@@ -21,18 +12,38 @@ a{
     text-decoration: none;
     color: rgb(255, 255, 255);
 }
+
+/* section styling */
+.main{
+    min-height: 100%;
+    background-image: url("../images/img1.png");
+    background-repeat: no-repeat;
+    background-position: fixed;
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+
+}
+
+.services{
+   min-height: 30%;
+   position: relative;
+}
+
 .footer{
     background-image: url("../images/img3.png");
     background-repeat: no-repeat;
     background-size: cover;
-    background-position:relative ;
-    
+    background-position:relative ; 
 }
 
-.services{
-    height: 100%;
-    background-color: rgb(192, 192, 192);
+.subscribe{
+    min-width: 50%;
 }
+
+
+/* end section styling */
+
 /* social media section */
 .fa{
     height: 50px;
@@ -75,10 +86,6 @@ li{
 }
 .font-small{
     font-size: small;
-}
-
-.subscribe{
-    
 }
 
 .button-primary{
